@@ -144,6 +144,8 @@ Measured on an Apple M-series 14-core machine, n near 4e12, identical output:
 | packed counters, branch-free step        | 36 M/s    | 385 M/s    |
 | + incremental digit counts of n          | 50 M/s    | 580 M/s    |
 
+On a Mac Studio Ultra with 24 cores it gets about 900 M/s.
+
 Rates fall slowly as n grows because values have more digits and take slightly longer
 to cover. At 1e13 to 1e14 expect a few hundred million n per second on such a machine.
 
