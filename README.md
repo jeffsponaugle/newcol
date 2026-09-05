@@ -10,6 +10,7 @@ encountered in the Collatz trajectory n -> ... -> 1, excluding the initial n.
 
 The first terms are 1, 2, 3, 4, 5, 8, 9, 10, 13, 16, 17, 29, 32, 49, 53, 69, 70, 77, ...
 There are 216 terms below 2e7, 229 below 1e10, and the density keeps falling.
+There are 231 terms below 1e12 and the last term I have found to date is 15,078,777,741
 
 ## Build and test
 
